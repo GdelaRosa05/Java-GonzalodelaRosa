@@ -9,6 +9,9 @@ public class Operadores {
 		int numAlumnosCETI = 19;
 		int numAlumnosFPB = 19;
 		int numAlumnosSMR = 70;
+		float mediaAlumnos;
+		int num1=4;
+		int num2=3;
 		
 		//Para sumar "+"
 		int sumaAlumnos = numAlumnosDAW + numAlumnosASIR;
@@ -27,8 +30,26 @@ public class Operadores {
 		//Esta instrucción es igual a la anterior
 		sumaAlumnos--;
 		//++ incrementa en 1 una variable numérica
-		sumaAlumnos++;
+		++sumaAlumnos;
 		
+		//El operador "++" si se pone a la izquierda, tendrá preferencia y será lo primero
+		//que se ejecute, si se pone a la derecha de la variable se ejecutará después del resto
+		//de operadores o funciones.
+		System.out.println("Los alumnos de informática actuales son: " + ++sumaAlumnos);
+		
+		//La  media es la suma de todos los alumnos entre la cantidad de grados
+		mediaAlumnos = sumaAlumnos/5;
+		
+		System.out.println("La media de alumnos de informática actuales son: " + sumaAlumnos);
+
+		System.out.println("El resto de dividir es:  " + 31%7);
+		
+		//Si hay una cadena de texto con el operador + convierte todo a cadenas
+		System.out.println("El resultado es " + (num1++) + num2);
+		//Si las operaciones aritméticas las ponemos entre paréntesis primero se realiza la suma
+		//En este caso el incremento ++ de num1 se hace al final, no se muestra por pantalla
+		System.out.println("El resultado es " + ((num1++) + num2));
+		System.out.println("El resultado es " + ((++num1) + num2));
 	}
 
 }
