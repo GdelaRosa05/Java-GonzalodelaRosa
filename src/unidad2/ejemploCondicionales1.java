@@ -20,6 +20,10 @@ public class ejemploCondicionales1 {
 			System.out.println("No puedes entrar a la discoteca");
 		}
 
+		if (false || !true && !false) {
+			System.out.println("Success");
+		}
+
 		teclado.close();
 	}
 
