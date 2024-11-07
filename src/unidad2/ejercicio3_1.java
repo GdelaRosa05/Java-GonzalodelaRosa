@@ -85,10 +85,11 @@ public class ejercicio3_1 {
 			result2 = num3;
 		}
 
-		if (result2 % 2 == 0) {
-			System.out.println("El número " + result2 + "es par");
+		// Hacemos la condición para ver si son pares o impares
+		if (result1 % 2 == 0) {
+			System.out.println("El número " + result1 + " es par");
 		} else {
-			System.out.println("El número " + result2 + "es impar");
+			System.out.println("El número " + result1 + " es impar");
 		}
 
 		if (result2 % 2 == 0) {
