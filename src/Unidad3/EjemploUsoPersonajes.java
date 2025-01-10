@@ -1,6 +1,6 @@
 package Unidad3;
 
-public class ejemploObjetos {
+public class EjemploUsoPersonajes {
 
 	public static void main(String[] args) {
 
@@ -18,6 +18,7 @@ public class ejemploObjetos {
 		// Cuando lo creamos realmente se llama a una función de la clase arma
 		// que se denomina constructor
 		Arma arcoGelido = new Arma();
+		Arma lanzaPicas = new Arma("Lanza Picas", "Múltiples picas a la vez", 0, 20, 0, 3);
 
 		// arcoGelido.nombre = "Frozen";
 
